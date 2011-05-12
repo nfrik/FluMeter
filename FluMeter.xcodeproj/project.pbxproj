@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3AB2D76137C5A0B00EDE9F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB2D75137C5A0B00EDE9F7 /* UIKit.framework */; };
+		C3AB2D78137C5A0B00EDE9F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB2D77137C5A0B00EDE9F7 /* Foundation.framework */; };
+		C3AB2D7A137C5A0B00EDE9F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB2D79137C5A0B00EDE9F7 /* CoreGraphics.framework */; };
+		C3AB2D80137C5A0B00EDE9F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3AB2D7E137C5A0B00EDE9F7 /* InfoPlist.strings */; };
+		C3AB2D83137C5A0B00EDE9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AB2D82137C5A0B00EDE9F7 /* main.m */; };
+		C3AB2D86137C5A0B00EDE9F7 /* FluMeterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AB2D85137C5A0B00EDE9F7 /* FluMeterAppDelegate.m */; };
+		C3AB2D89137C5A0B00EDE9F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AB2D87137C5A0B00EDE9F7 /* MainWindow.xib */; };
+		C3AB2D8C137C5A0B00EDE9F7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AB2D8B137C5A0B00EDE9F7 /* RootViewController.m */; };
+		C3AB2D8F137C5A0B00EDE9F7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AB2D8D137C5A0B00EDE9F7 /* RootViewController.xib */; };
+		C3AB2D96137C5A0B00EDE9F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB2D75137C5A0B00EDE9F7 /* UIKit.framework */; };
+		C3AB2D97137C5A0B00EDE9F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB2D77137C5A0B00EDE9F7 /* Foundation.framework */; };
+		C3AB2D98137C5A0B00EDE9F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AB2D79137C5A0B00EDE9F7 /* CoreGraphics.framework */; };
+		C3AB2DA0137C5A0B00EDE9F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3AB2D9E137C5A0B00EDE9F7 /* InfoPlist.strings */; };
+		C3AB2DA3137C5A0B00EDE9F7 /* FluMeterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C3AB2DA2137C5A0B00EDE9F7 /* FluMeterTests.h */; };
+		C3AB2DA5137C5A0B00EDE9F7 /* FluMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AB2DA4137C5A0B00EDE9F7 /* FluMeterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3AB2D99137C5A0B00EDE9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AB2D68137C5A0A00EDE9F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AB2D70137C5A0B00EDE9F7;
+			remoteInfo = FluMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3AB2D71137C5A0B00EDE9F7 /* FluMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AB2D75137C5A0B00EDE9F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3AB2D77137C5A0B00EDE9F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3AB2D79137C5A0B00EDE9F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3AB2D7D137C5A0B00EDE9F7 /* FluMeter-Info.plist */ = {isa = PBXFileReference; path = "FluMeter-Info.plist"; sourceTree = "<group>"; };
+		C3AB2D7F137C5A0B00EDE9F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3AB2D81137C5A0B00EDE9F7 /* FluMeter-Prefix.pch */ = {isa = PBXFileReference; path = "FluMeter-Prefix.pch"; sourceTree = "<group>"; };
+		C3AB2D82137C5A0B00EDE9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3AB2D84137C5A0B00EDE9F7 /* FluMeterAppDelegate.h */ = {isa = PBXFileReference; path = FluMeterAppDelegate.h; sourceTree = "<group>"; };
+		C3AB2D85137C5A0B00EDE9F7 /* FluMeterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FluMeterAppDelegate.m; sourceTree = "<group>"; };
+		C3AB2D88137C5A0B00EDE9F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C3AB2D8A137C5A0B00EDE9F7 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		C3AB2D8B137C5A0B00EDE9F7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C3AB2D8E137C5A0B00EDE9F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		C3AB2D95137C5A0B00EDE9F7 /* FluMeterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluMeterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AB2D9D137C5A0B00EDE9F7 /* FluMeterTests-Info.plist */ = {isa = PBXFileReference; path = "FluMeterTests-Info.plist"; sourceTree = "<group>"; };
+		C3AB2D9F137C5A0B00EDE9F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3AB2DA1137C5A0B00EDE9F7 /* FluMeterTests-Prefix.pch */ = {isa = PBXFileReference; path = "FluMeterTests-Prefix.pch"; sourceTree = "<group>"; };
+		C3AB2DA2137C5A0B00EDE9F7 /* FluMeterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluMeterTests.h; sourceTree = "<group>"; };
+		C3AB2DA4137C5A0B00EDE9F7 /* FluMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FluMeterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3AB2D6E137C5A0B00EDE9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AB2D76137C5A0B00EDE9F7 /* UIKit.framework in Frameworks */,
+				C3AB2D78137C5A0B00EDE9F7 /* Foundation.framework in Frameworks */,
+				C3AB2D7A137C5A0B00EDE9F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AB2D91137C5A0B00EDE9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AB2D96137C5A0B00EDE9F7 /* UIKit.framework in Frameworks */,
+				C3AB2D97137C5A0B00EDE9F7 /* Foundation.framework in Frameworks */,
+				C3AB2D98137C5A0B00EDE9F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3AB2D66137C5A0A00EDE9F7 = {
+			isa = PBXGroup;
+			children = (
+				C3AB2D7B137C5A0B00EDE9F7 /* FluMeter */,
+				C3AB2D9B137C5A0B00EDE9F7 /* FluMeterTests */,
+				C3AB2D74137C5A0B00EDE9F7 /* Frameworks */,
+				C3AB2D72137C5A0B00EDE9F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3AB2D72137C5A0B00EDE9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB2D71137C5A0B00EDE9F7 /* FluMeter.app */,
+				C3AB2D95137C5A0B00EDE9F7 /* FluMeterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3AB2D74137C5A0B00EDE9F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB2D75137C5A0B00EDE9F7 /* UIKit.framework */,
+				C3AB2D77137C5A0B00EDE9F7 /* Foundation.framework */,
+				C3AB2D79137C5A0B00EDE9F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3AB2D7B137C5A0B00EDE9F7 /* FluMeter */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB2D84137C5A0B00EDE9F7 /* FluMeterAppDelegate.h */,
+				C3AB2D85137C5A0B00EDE9F7 /* FluMeterAppDelegate.m */,
+				C3AB2D87137C5A0B00EDE9F7 /* MainWindow.xib */,
+				C3AB2D8A137C5A0B00EDE9F7 /* RootViewController.h */,
+				C3AB2D8B137C5A0B00EDE9F7 /* RootViewController.m */,
+				C3AB2D8D137C5A0B00EDE9F7 /* RootViewController.xib */,
+				C3AB2D7C137C5A0B00EDE9F7 /* Supporting Files */,
+			);
+			path = FluMeter;
+			sourceTree = "<group>";
+		};
+		C3AB2D7C137C5A0B00EDE9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB2D7D137C5A0B00EDE9F7 /* FluMeter-Info.plist */,
+				C3AB2D7E137C5A0B00EDE9F7 /* InfoPlist.strings */,
+				C3AB2D81137C5A0B00EDE9F7 /* FluMeter-Prefix.pch */,
+				C3AB2D82137C5A0B00EDE9F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3AB2D9B137C5A0B00EDE9F7 /* FluMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB2DA2137C5A0B00EDE9F7 /* FluMeterTests.h */,
+				C3AB2DA4137C5A0B00EDE9F7 /* FluMeterTests.m */,
+				C3AB2D9C137C5A0B00EDE9F7 /* Supporting Files */,
+			);
+			path = FluMeterTests;
+			sourceTree = "<group>";
+		};
+		C3AB2D9C137C5A0B00EDE9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3AB2D9D137C5A0B00EDE9F7 /* FluMeterTests-Info.plist */,
+				C3AB2D9E137C5A0B00EDE9F7 /* InfoPlist.strings */,
+				C3AB2DA1137C5A0B00EDE9F7 /* FluMeterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3AB2D70137C5A0B00EDE9F7 /* FluMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AB2DA8137C5A0B00EDE9F7 /* Build configuration list for PBXNativeTarget "FluMeter" */;
+			buildPhases = (
+				C3AB2D6D137C5A0B00EDE9F7 /* Sources */,
+				C3AB2D6E137C5A0B00EDE9F7 /* Frameworks */,
+				C3AB2D6F137C5A0B00EDE9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluMeter;
+			productName = FluMeter;
+			productReference = C3AB2D71137C5A0B00EDE9F7 /* FluMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3AB2D94137C5A0B00EDE9F7 /* FluMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AB2DAB137C5A0B00EDE9F7 /* Build configuration list for PBXNativeTarget "FluMeterTests" */;
+			buildPhases = (
+				C3AB2D90137C5A0B00EDE9F7 /* Sources */,
+				C3AB2D91137C5A0B00EDE9F7 /* Frameworks */,
+				C3AB2D92137C5A0B00EDE9F7 /* Resources */,
+				C3AB2D93137C5A0B00EDE9F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3AB2D9A137C5A0B00EDE9F7 /* PBXTargetDependency */,
+			);
+			name = FluMeterTests;
+			productName = FluMeterTests;
+			productReference = C3AB2D95137C5A0B00EDE9F7 /* FluMeterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3AB2D68137C5A0A00EDE9F7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C3AB2D6B137C5A0A00EDE9F7 /* Build configuration list for PBXProject "FluMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3AB2D66137C5A0A00EDE9F7;
+			productRefGroup = C3AB2D72137C5A0B00EDE9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3AB2D70137C5A0B00EDE9F7 /* FluMeter */,
+				C3AB2D94137C5A0B00EDE9F7 /* FluMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3AB2D6F137C5A0B00EDE9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AB2D80137C5A0B00EDE9F7 /* InfoPlist.strings in Resources */,
+				C3AB2D89137C5A0B00EDE9F7 /* MainWindow.xib in Resources */,
+				C3AB2D8F137C5A0B00EDE9F7 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AB2D92137C5A0B00EDE9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AB2DA0137C5A0B00EDE9F7 /* InfoPlist.strings in Resources */,
+				C3AB2DA3137C5A0B00EDE9F7 /* FluMeterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3AB2D93137C5A0B00EDE9F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3AB2D6D137C5A0B00EDE9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AB2D83137C5A0B00EDE9F7 /* main.m in Sources */,
+				C3AB2D86137C5A0B00EDE9F7 /* FluMeterAppDelegate.m in Sources */,
+				C3AB2D8C137C5A0B00EDE9F7 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3AB2D90137C5A0B00EDE9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AB2DA5137C5A0B00EDE9F7 /* FluMeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3AB2D9A137C5A0B00EDE9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3AB2D70137C5A0B00EDE9F7 /* FluMeter */;
+			targetProxy = C3AB2D99137C5A0B00EDE9F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3AB2D7E137C5A0B00EDE9F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AB2D7F137C5A0B00EDE9F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3AB2D87137C5A0B00EDE9F7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AB2D88137C5A0B00EDE9F7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C3AB2D8D137C5A0B00EDE9F7 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AB2D8E137C5A0B00EDE9F7 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		C3AB2D9E137C5A0B00EDE9F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AB2D9F137C5A0B00EDE9F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3AB2DA6137C5A0B00EDE9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3AB2DA7137C5A0B00EDE9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C3AB2DA9137C5A0B00EDE9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FluMeter/FluMeter-Prefix.pch";
+				INFOPLIST_FILE = "FluMeter/FluMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3AB2DAA137C5A0B00EDE9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FluMeter/FluMeter-Prefix.pch";
+				INFOPLIST_FILE = "FluMeter/FluMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3AB2DAC137C5A0B00EDE9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FluMeter.app/FluMeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FluMeterTests/FluMeterTests-Prefix.pch";
+				INFOPLIST_FILE = "FluMeterTests/FluMeterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C3AB2DAD137C5A0B00EDE9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FluMeter.app/FluMeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FluMeterTests/FluMeterTests-Prefix.pch";
+				INFOPLIST_FILE = "FluMeterTests/FluMeterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3AB2D6B137C5A0A00EDE9F7 /* Build configuration list for PBXProject "FluMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AB2DA6137C5A0B00EDE9F7 /* Debug */,
+				C3AB2DA7137C5A0B00EDE9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AB2DA8137C5A0B00EDE9F7 /* Build configuration list for PBXNativeTarget "FluMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AB2DA9137C5A0B00EDE9F7 /* Debug */,
+				C3AB2DAA137C5A0B00EDE9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3AB2DAB137C5A0B00EDE9F7 /* Build configuration list for PBXNativeTarget "FluMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AB2DAC137C5A0B00EDE9F7 /* Debug */,
+				C3AB2DAD137C5A0B00EDE9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3AB2D68137C5A0A00EDE9F7 /* Project object */;
+}
